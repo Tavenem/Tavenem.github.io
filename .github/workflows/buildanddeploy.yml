@@ -11,8 +11,8 @@ on:
 
 env:
     HUGO_VERSION: 0.74.3
-    BASE_URL: https://neverfoundry.com
-    AZURE_STORAGE_ACCOUNT: neverfoundrycomstorage
+    BASE_URL: https://tavenem.com
+    AZURE_STORAGE_ACCOUNT: tavenemcomstorage
 
 jobs:
     build-deploy:
