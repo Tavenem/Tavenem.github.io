@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tavenem</title>
+    <link>https://tavenem.com/</link>
+    <description>Recent content on Tavenem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://tavenem.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>https://tavenem.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tavenem.com/contact/</guid>
+      <description>Contact Tavenem GitHub Visit our repositories at GitHub to learn more about our software, report bugs, or make feature requests.
+Email You may reach us at contact@tavenem.com. Please note that bug reports or feature requests should be directed to the appropriate repository at GitHub. An email that reports a bug or makes a feature request will be ignored.
+An important exception to this rule is reporting security flaws in Tavenem software.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://tavenem.com/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tavenem.com/privacy/</guid>
+      <description>Privacy Policy Information Collected You may visit our Site without identifying yourself or revealing any personal information. Our Site may collect information such as domain names, IP address, browser type, operating system, access times and referring Web site addresses. This information may be used for the operation of the service, to maintain quality of the service and for site trends and statistics. This information does not personally identify you.
+We do not sell, rent, or give your personal information to any third party.</description>
+    </item>
+    
+  </channel>
+</rss>
