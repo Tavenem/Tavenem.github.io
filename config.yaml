@@ -1,6 +1,7 @@
 baseURL: https://tavenem.com/
 languageCode: en-us
 title: Tavenem
+refLinksNotFoundURL: 404.html
 
 menu: main
 
@@ -34,8 +35,3 @@ minify:
       decimals: -1
     xml:
       keepWhitespace: false
-
-deployment:
-  targets:
-    - name: Azure
-      URL: azblob://$web
