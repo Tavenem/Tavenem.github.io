@@ -14,7 +14,7 @@
         }
     ],
     "theme_color": "#7f00ff",
-    "background_color": "#333",
+    "background_color": "#1a1a27",
     "start_url": "https://tavenem.com",
     "display": "standalone"
 }

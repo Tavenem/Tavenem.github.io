@@ -3,11 +3,12 @@ html, body {
 }
 
 body {
-    background-color: #333;
-    color: white;
+    background-color: #1a1a27;
+    color: #ffffffc5;
     display: flex;
     flex-flow: column nowrap;
-    font: 20px Helvetica, sans-serif;
+    font-family: Recursive, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.25rem;
     margin: 0;
 }
 
@@ -30,7 +31,7 @@ header div {
 }
 
 .header-icon {
-    height: 50px;
+    height: 3.125rem;
     margin-right: 0.5rem;
 }
 
@@ -38,8 +39,12 @@ main {
     flex-grow: 1;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Encode Sans SC', Recursive, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
     margin-top: 0;
     padding-top: 1rem;
 }
@@ -65,22 +70,26 @@ article::after {
 }
 
 a {
-    color: #f1e4ff;
+    color: #6da7fd;
     text-decoration: none;
 }
 
 a:hover {
-    color: #e5ccff;
+    color: #3b88fc;
     text-decoration: none;
 }
 
 footer {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     padding-bottom: 0.25rem;
-    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 footer div {
