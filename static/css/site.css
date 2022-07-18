@@ -1,0 +1,40 @@
+html { height: 100%; }
+body { min-height: 100%; }
+
+header a {
+    color: #a03dff;
+}
+    header a:hover {
+        color: #b361ff;
+    }
+
+.site-footer {
+    align-self: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1ch;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: auto;
+    padding-bottom: .25rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    position: relative;
+}
+
+article {
+    display: block;
+    margin: 2rem auto 0 auto;
+}
+    article:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+.article-image {
+    float: left;
+    margin-right: 1rem;
+    max-width: 256px;
+}

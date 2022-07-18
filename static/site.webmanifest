@@ -1,20 +1,20 @@
 {
-    "name": "Tavenem",
-    "short_name": "Tavenem",
-    "icons": [
-        {
-            "src": "/images/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/images/android-chrome-256x256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#7f00ff",
-    "background_color": "#1a1a27",
-    "start_url": "https://tavenem.com",
-    "display": "standalone"
+  "name": "Tavenem",
+  "short_name": "Tavenem",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png?v=2",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png?v=2",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#faf5ff",
+  "background_color": "#faf5ff",
+  "start_url": "https://tavenem.com",
+  "display": "standalone"
 }

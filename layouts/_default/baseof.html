@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    {{- partial "head.html" . -}}
-    <body>
+{{- partial "head.html" . -}}
+<body>
+    <div class="framework">
         {{- partial "header.html" . -}}
-        {{- block "main" . }}{{- end }}
-        {{- partial "footer.html" . -}}
-    </body>
+
+        <main id="main-container" class="container mt-3">
+            <div class="container-fixed">
+                {{- block "main" . }}{{- end }}
+            </div>
+            {{- partial "footer.html" . -}}
+        </main>
+
+        <div id="scroll-to-top" class="scroll-to-top hidden">
+            <span class="btn btn-icon primary filled">
+                <tf-icon>expand_less</tf-icon>
+            </span>
+        </div>
+    </div>
+    <script src="site.js"></script>
+</body>
 </html>
